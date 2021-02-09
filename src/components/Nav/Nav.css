@@ -1,0 +1,31 @@
+.header {
+  position: fixed;
+  z-index: 99;
+  width: 100%;
+}
+
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 5rem;
+}
+
+.header__wrapper .header__logo {
+  font-size: 4rem;
+  color: #fff;
+  font-weight: bolder;
+}
+
+.header__wrapper ul {
+  display: flex;
+  list-style: none;
+  align-self: center;
+}
+
+.header__wrapper ul li {
+  margin: 0 1rem;
+}
+
+.header__wrapper ul li a {
+  color: #fff;
+}

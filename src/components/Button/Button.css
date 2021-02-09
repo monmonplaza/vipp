@@ -1,0 +1,18 @@
+.btn {
+  border: 0;
+  border-radius: 2rem;
+}
+
+.btn--primary {
+  background-color: #386179;
+  color: #fff;
+}
+
+.btn--outline {
+  border: 2px solid #386179;
+  background-color: transparent;
+}
+
+.btn--medium {
+  padding: 0.8rem 1.8rem;
+}
